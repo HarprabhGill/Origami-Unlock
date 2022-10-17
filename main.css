@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+.app-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#lock{
+    background-image: url(assets/lock.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    resize:none;
+    width:400px;
+    height:800px;
+}
+
+#btnunl{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+    height: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+}
+
+#origami{
+    display: none;
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    resize:none;
+    width:400px;
+    height:800px;
+}
+
+#homes{
+    display: none;
+    background-image: url(assets/home.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    resize:none;
+    width:400px;
+    height:800px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
