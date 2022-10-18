@@ -33,7 +33,7 @@ body {
 
 #origami{
     display: none;
-    background-color: green;
+    background-image: url(assets/bench.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
