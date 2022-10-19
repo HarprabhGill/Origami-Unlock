@@ -24,11 +24,11 @@ body {
     background-color: white;
     border-color: black;
     border-style: solid;
-    width: 200px;
+    width: 180px;
     height: 10px;
     position: fixed;
     bottom: 50px;
-    right: 100px;
+    right: 110px;
 }
 
 #origami{
@@ -58,6 +58,26 @@ body {
 img{
     height: 250px;
     width: 250px;
-    margin-top: 85%;
+    margin-top: 50px;
     margin-left: 17%;
+}
+
+#unltext{
+    display: none;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 90px;
+}
+
+#wrongtxt{
+    display: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+
+#filler{
+    padding-top: 200px;
+    padding-left: 80px;
 }
