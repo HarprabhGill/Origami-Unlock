@@ -18,12 +18,15 @@
                 <h2 id=wrongtxt>Incorrect Pattern</h2>
             </div>
             <img id=first src="assets/dog1.png">
-            <h1 id=unltext>Phone Unlocked</h1>
+            <div id=unltext>
+                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+            </div>
         </div>
 
-        <div id=lock>
-            <button id=btnunl onclick ="passcode(this.parentNode)"></button>
-        </div>
+        <div id=lock></div>
     </div>
 </body>
 </html>
